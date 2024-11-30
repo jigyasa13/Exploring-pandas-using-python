@@ -1,2 +1,3 @@
-# Exploring pandas in python
- 
+This repository explores the relationship between students' lifestyle habits and academic performance (GPA) using Python's Pandas library for data analysis and three machine learning models: Linear Regression, Logistic Regression, and K-Nearest Neighbors (KNN). Linear Regression predicts GPA as a continuous variable, while Logistic Regression and KNN classify GPA into categories (e.g., above/below average). The analysis highlights key lifestyle factors like study and sleep hours that influence GPA and evaluates the models' performance using metrics such as accuracy and R² scores.
+
+The dataset includes various attributrs: student ID, Study Hours, Extracurricular Hours, Sleep Hours, Social Hours, Physical Hours and all are measured on per day basis. And the ouput parameter is GPA and Stress Level.
