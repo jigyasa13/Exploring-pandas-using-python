@@ -49,5 +49,5 @@ Y_pred = model.predict(X_test)
 
 # Calculate and print accuracy score
 accuracy = accuracy_score(Y_test, Y_pred)
-print(f"Accuracy Score: {accuracy * 100:.2f}%")
+print(f" the model correctly classified  {accuracy * 100:.2f}% of the test samples in below and above average GPA")
 
