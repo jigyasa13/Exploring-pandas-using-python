@@ -51,4 +51,4 @@ Y_pred = model.predict(X_test)
 
 # Calculate and print accuracy score
 accuracy = accuracy_score(Y_test, Y_pred)
-print(f"Accuracy Score: {accuracy * 100:.2f}%")
+print(f"The model correctly classifies approximately   {accuracy * 100:.2f}% of the test samples based on the given dataset.")
